@@ -9,7 +9,7 @@ To export a Watson Assistant workspace from a command prompt or terminal window,
 
 ## 2. Retrieve Workspace ID
 To retrieve a workspace ID using the Watson Assistant API, issue the following curl command 
-`curl -u "{username}":"{password}" "https://gateway.watsonplatform.net/assistant/api/v1/workspaces?version=2018-09-20"`
+```curl -u "{username}":"{password}" "https://gateway.watsonplatform.net/assistant/api/v1/workspaces?version=2018-09-20"`
 
 Replace `{username}` and `{password}` in the command above with the appropriate credentials for your Watson Assistant instance. You might notice that your Watson Assistant instance doesn't use username/password as a means of authentication, but instead uses an Identity and Access Management (IAM) API Key. In this case replace `"{username}":"{password}"` with `"apikey:{apikey}"`  where {apikey} is the IAM API Key value for the Watson Assistance service instance. 
 
