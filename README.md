@@ -5,9 +5,9 @@ In this simple tutorial we go through the steps to export and import and Watson 
 1. [Background](#1-background)
 2. [Environment Setup](#2-environment-setup)
 3. [Retrieve Workspace ID](#3-retrieve-workspace-id)
-4. [Export Watson Assistant Workspace] (#-export-watson-assistant-workspace)
-5. [Import Watson Assistant Workspace] (#-import-watson-assistant-workspace)
-6. [Conclusion] (#-conclusion)
+4. [Export Watson Assistant Workspace](#4-export-watson-assistant-workspace)
+5. [Import Watson Assistant Workspace](#5-import-watson-assistant-workspace)
+6. [Conclusion](#6-conclusion)
 
 
 ## 1. Background 
