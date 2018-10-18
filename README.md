@@ -1,4 +1,4 @@
-# watson-assistant-workspace
+# Export and Import a Watson Assistant Workspace
 
 ## 1. Background 
 Teams working to build a virtual agent with Watson Assistant will define the agent's domain using intents and entities and structure the agent's ability to converse through a dialog. The aforementioned intents, entities and dialog are the core components of a Watson Assistant workspace and it's this workspace that a development team will look to version and promote as they build and deploy a virtual agent solution. 
