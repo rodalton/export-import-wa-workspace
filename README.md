@@ -11,9 +11,9 @@ In this simple tutorial we go through the steps to export and import and Watson 
 
 
 ## 1. Background 
-Teams working to build a virtual agent with Watson Assistant will define the agent's domain using intents and entities and structure the agent's ability to converse through a dialog. The aforementioned intents, entities and dialog are the core components of a Watson Assistant workspace and it's this workspace that a development team will look to version and promote as they build and deploy a virtual agent solution. 
+Teams working to build a virtual agent with Watson Assistant will define the agent's domain using intents and entities and structure the agent's ability to converse through a dialog. The aforementioned intents, entities and dialog are the core components of a Watson Assistant workspace and it's this workspace that a development team will look to version and promote as they build and deploy a virtual agent solution. The instructions provided in this simple tutorial can be used to create a duplicate of an existing workspace that can be used for training, development, testing, etc.
 
-The Watson Assistant API makes it easy to to both export and import a Watson Assistant workspace. 
+The Watson Assistant API makes it easy to both export and import a Watson Assistant workspace. 
 
 ## 2. Environment Setup
 To export a Watson Assistant workspace from a command prompt or terminal window, we can use curl. Note, it's also possible to export a Watson Assistant workspace from the IBM Cloud user interface, but to script or automate the process you're more likley to use the API. Ensure you have curl installed on the machine where you plan to execute the commands in the steps that follow. 
