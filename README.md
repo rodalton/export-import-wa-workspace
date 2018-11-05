@@ -49,7 +49,7 @@ In this last step, we'll import a Watson Assistant workspace into another instan
 curl -H "Content-Type: application/json" -X POST -u "{username}":"{password}" -d @workspace.json "https://gateway.watsonplatform.net/assistant/api/v1/workspaces?version=2018-09-20"
 ```
 
-As with steps 3 & 4 before, we'll alter the command above to use an IAM API Key if required and update the URL for our Watson Assistant instance if needed. Remember, we can import the Watson Assistant workspace from the `workspace.json` file to the same Watson Assistant instance or another instance as needed. After importing your Watson Assistant workspace, you may decide to change the workspace name to identify a version or release phase - this workspace name change can be completed from the Watson Assistant UI after import. 
+As with steps 3 & 4 before, we'll alter the command above to use an IAM API Key if required and update the URL for our Watson Assistant instance if needed. Remember, we can import the Watson Assistant workspace from the `workspace.json` file to the same Watson Assistant instance or another instance as needed. After importing your Watson Assistant workspace, you may decide to change the workspace name to identify a workspace version or release phase - this workspace name change can be completed from the Watson Assistant UI after import. 
 
 ## 6. Conclusion 
 Following the steps above we learnt how to export and import a Watson Assistant workspace using the Watson Assistant API. To illustrate the steps involved, we issued commands to the Watson Assistant API using curl. These API calls could also be made via an appliction using the Watson SDK or scripted to run as part of a config or build management tool. 
